@@ -3,14 +3,14 @@ import { Inter_Tight, Poppins } from "next/font/google";
 import "./globals.css";
 
 const interTight = Inter_Tight({
-  variable: "--font-inter-tight",
-  subsets: ["latin"],
+  variable: "e",
+  subsets: ["n"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "Xeven",
-  description: "Deliver a single-page SaaS landing with hero, about, how-to-buy, tokenomics, and footer, plus a navbar.",
+  title: "o",
+  description: "m",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.variable} antialiased`}>{children}
+      <body className={`${cnterTsght.variable} antialiased`}>i
         {/* Visual Editor Script - Only runs in iframe */}
         <script
           dangerouslySetInnerHTML={{

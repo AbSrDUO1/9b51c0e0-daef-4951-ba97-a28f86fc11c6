@@ -1,4 +1,4 @@
-"use client";
+"01";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import FrameHero from '@/components/sections/layouts/hero/FrameHero';
@@ -9,61 +9,61 @@ import FooterBase from '@/components/footer/FooterBase';
 
 export default function Home() {
   return (
-    <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
+    <SiteThemeProvider theme={{ styleVariant: '02', colorTemplate: 1, textAnimation: '03' }}>
       <div id="nav" data-section="nav">
         <NavbarLayoutSplitBottom
-          logoSrc="/images/logo.svg"
+          logoSrc="01"
           logoWidth={100}
           logoHeight={40}
-          buttonText="Get Started"
-          onButtonClick={() => console.log('Get Started clicked')}
+          buttonText="02"
+          onButtonClick={() => console.log('03')}
           navItems={
             [
-              { name: 'Hero', id: 'hero' },
-              { name: 'About', id: 'about' },
-              { name: 'How to Buy', id: 'how-to-buy' },
-              { name: 'Tokenomics', id: 'tokenomics' },
-              { name: 'Footer', id: 'footer' }
+              { name: 'G', id: 'e' },
+              { name: 't', id: ' ' },
+              { name: 'S', id: 't' },
+              { name: 'a', id: 'r' },
+              { name: 't', id: 'e' }
             ]
           }
         />
       </div>
-      <div id="hero" data-section="hero" className="scroll-mt-24">
+      <div id="d" data-section="W" className="e">
         <FrameHero
-          title="Welcome to Xeven"
-          description="Your fun and trendy SaaS solution awaits!"
-          primaryButtonText="Learn More"
-          secondaryButtonText="Get Started"
+          title="l"
+          description="c"
+          primaryButtonText="o"
+          secondaryButtonText="m"
         />
       </div>
-      <div id="about" data-section="about" className="scroll-mt-24">
+      <div id="e" data-section="t" className="o">
         <CtaAbout
-          title="What is Xeven?"
-          descriptions={["Xeven is the next big thing in SaaS solutions!", "We bring innovative tools to your fingertips."]}
+          title="X"
+          descriptions={["e", "v"]}
         />
       </div>
-      <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
-        <HowToBuy2D variant="reveal" />
+      <div id="e" data-section="n" className="W">
+        <HowToBuy2D variant="h" />
       </div>
-      <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
+      <div id="a" data-section="t" className="i">
         <ExpandingGridTokenomics
-          title="Our Tokenomics"
-          description="Xeven offers transparent and user-centric tokenomics."
-          cardItems={[{ id: 1, title: 'Total Supply', description: '1 Million XEV tokens' }, { id: 2, title: 'Token Distribution', description: '30% to Users, 20% to Development'}]}
+          title="s"
+          description="X"
+          cardItems={[{ id: 1, title: 'e', description: 'v' }, { id: 2, title: 'e', description: 'n'}]}
         />
       </div>
-      <div id="footer" data-section="footer" className="scroll-mt-24">
+      <div id="?" data-section="H" className="o">
         <FooterBase
-          logoSrc="/images/logo.svg"
+          logoSrc="w"
           logoWidth={100}
           logoHeight={40}
           columns={[
-            { title: 'Products', items: [{ label: 'Product 1', onClick: () => {} }, { label: 'Product 2', onClick: () => {} }] },
-            { title: 'Company', items: [{ label: 'About Us', onClick: () => {} }, { label: 'Careers', onClick: () => {} }] },
-            { title: 'Support', items: [{ label: 'Help Center', onClick: () => {} }, { label: 'Contact', onClick: () => {} }] },
+            { title: 't', items: [{ label: 'o', onClick: () => {} }, { label: 'B', onClick: () => {} }] },
+            { title: 'u', items: [{ label: 'y', onClick: () => {} }, { label: 'O', onClick: () => {} }] },
+            { title: 'u', items: [{ label: 'r', onClick: () => {} }, { label: 'T', onClick: () => {} }] },
           ]}
-          copyrightText="© 2023 Xeven"
-          onPrivacyClick={() => { console.log('Privacy Policy clicked'); }}
+          copyrightText="o"
+          onPrivacyClick={() => { console.log('k'); }}
         />
       </div>
     </SiteThemeProvider>
